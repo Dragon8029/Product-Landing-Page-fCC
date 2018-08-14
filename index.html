@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  
+  <script type="text/javascript" src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script>
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+  <!-- <header id="header">  -->
+  <!-- within the #header element need a nav element with ID "nav-bar" -->
+  <!-- three clickable elements inside the nav element with the class "nav-link" -->
+  <!-- when .nav-link button is clicked, it navigates to corresponding section on page -->
+  <!--   </header>  -->
+  <header id="header">
+    <nav id="nav-bar" class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <div class="navbar-brand" href="#">
+            <img id="header-img" alt="Brand" src="https://img.etsystatic.com/il/87189b/1510899163/il_340x270.1510899163_oxaw.jpg?version=0">
+            <h1>Original Guitars</h1>
+          </div>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a class="nav-link" href="#features">Features</a></li>
+          <li><a class="nav-link" href="#video">Video</a></li>
+          <li><a class="nav-link" href="#form">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div id="features" class="jumptarget">
+    <h3>Selection</h3>
+    <p>We have many styles to choose from, everyone should be able to find what they need.</p>
+    <h3>Top Quality Materials</h3>
+    <p>We only use top of the line materials that are sustainably harvested to ensure we provide the best material for your instrument while looking after the planet. </p>
+    <h3>Fast Shipping</h3>
+    <p>As long as we have it in stock, we promise to ship the same day you order!</p>
+  </div>
+
+ 
+
+  <!-- embed a video with ID "video" -->
+  <iframe id="video" class="jumptarget" width="420" height="300" src="https://www.youtube.com/embed/hZC0jGy6fUE"></iframe>
+
+  <p>Basswood</p>
+  <p>$200</p>
+  <p>Bacon ipsum dolor amet strip steak chuck</p>
+  <p>Ash</p>
+  <p>$300</p>
+  <p>Bacon ipsum dolor amet strip steak chuck</p>
+  <p>Mahogany</p>
+  <p>$400</p>
+  <p>Bacon ipsum dolor amet strip steak chuck</p>
+
+  <!-- form element with ID "form" -->
+  <!-- input field with ID "email" -->
+ 
+  <!-- the #email should have placeholder text to let user know what the field is for -->
+  <!-- the #email input field uses HTML5 validation to confirm that the text entered is an email address -->
+  <!-- Within the form, there is a submit input with ID "submit" -->
+  <!-- when the #submit element is clicked, the email is submited to a static page. (see user stories for more) -->
+  <div class="jumptarget">
+    <form id="form">
+       <input id="email" type="email" name="email" placeholder="Enter your email address">
+       <button id="submit">Submit</button>
+    </form>
+  </div>
+  
+  <!-- the navbar should always be at the top of the viewport -->
+  <!-- product landing page should have at least one media query -->
+  <!-- product landing page uses CSS flexbox at least once -->
+<footer>
+  <span>Copyright 2018, Original Guitars</span>
+</footer>
+</body>
+</html>

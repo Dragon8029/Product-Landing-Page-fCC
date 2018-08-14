@@ -1,0 +1,52 @@
+
+body {
+  background: #eee;
+}
+.jumptarget::before {
+  content: "";
+  display: block;
+  height: 80px;
+ /* margin: -111px 0 0;*/
+}
+
+#nav-bar {
+  position: fixed;
+  background-color: #333;
+}
+
+.navbar {
+  height: 80px;
+  width: 100%;
+}
+
+#header-img {
+  padding: 5px;
+  width: 9vw;
+  margin-top: 5px;
+}
+
+h1 {
+  float: right;
+  padding: 4px;
+  margin-top: 3px;
+  font-size: 50px;
+  color: #ddd;
+}
+
+.navbar {
+  text-align: center;
+  width: 100%;
+}
+
+.navbar ul {
+  display: inline-block;
+}
+
+.navbar li {
+  float: left;
+  font-size: 1.3em;
+}
+
+.navbar li + li {
+  margin-left: 20px;
+}
