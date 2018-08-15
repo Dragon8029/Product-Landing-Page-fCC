@@ -50,3 +50,31 @@ h1 {
 .navbar li + li {
   margin-left: 20px;
 }
+
+.info-vid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#video {
+  height: 400px;
+  width: 700px;
+}
+
+#options {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pane {
+  border: solid black;
+  text-align: center;
+  float: left;
+  padding: 0 10px;
+  margin: 10px;
+}
+.pane h4 {
+  font-weight: bold;
+
+}
