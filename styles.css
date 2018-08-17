@@ -50,7 +50,18 @@ h1 {
 .navbar li + li {
   margin-left: 20px;
 }
+#features {
+  padding-top: 100px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
 
+}
+.feat {
+
+}
 
 .info-vid {
   display: flex;
