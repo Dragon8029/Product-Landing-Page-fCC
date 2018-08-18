@@ -51,7 +51,7 @@ h1 {
   margin-left: 20px;
 }
 #features {
-  padding-top: 100px;
+  padding-top: 80px;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -59,11 +59,30 @@ h1 {
   align-items: center;
 
 }
-.feat {
+i {
+  color: #666;
+  font-size: 1em;
+  margin-left: -40px;
+  padding-right: 20px;
+}
+.mat i {
+  margin-left: -38px;
+}
+.ship i {
+  margin-left: -40px;
+  padding-right: 10px;
+}
+.feat h3{
+  margin: 0 40px 0 140px;
+}
 
+.feat p {
+  margin: 10px 30px 10px 150px;
+  
 }
 
 .info-vid {
+  padding-top: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,4 +108,20 @@ h1 {
 .pane h4 {
   font-weight: bold;
 
+}
+
+#form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#form input {
+  width: 250px;
+  border-radius: 5px;
+}
+#form button {
+  margin: 10px;
+  border-radius: 5px;
+  background-color: #768d87;
+  color: #fff;
 }
