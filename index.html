@@ -27,7 +27,7 @@
         <ul class="nav navbar-nav">
           <li class="active"><a class="nav-link" href="#features">Features</a></li>
           <li><a class="nav-link" href="#video">Video</a></li>
-          <li><a class="nav-link" href="#form">Contact</a></li>
+          <li><a class="nav-link" href="#options">Pricing</a></li>
         </ul>
       </div>
     </nav>
@@ -49,27 +49,30 @@
   </div>
 
  
-<div class="info-vid">
+<div class="info-vid jumptarget">
   <!-- embed a video with ID "video" -->
-  <iframe id="video" class="jumptarget"  src="https://www.youtube.com/embed/hZC0jGy6fUE"></iframe>
+  <iframe id="video"  src="https://www.youtube.com/embed/hZC0jGy6fUE"></iframe>
 </div>
 
 
-<div id="options">
+<div id="options" class="jumptarget">
   <div class="pane">
     <h4>Basswood</h4>
-    <p>$200</p>
-    <p>Bacon ipsum dolor amet strip steak chuck burgdoggen meatloaf sirloin shankle flank frankfurter picanha turducken.</p>
+    <p class="price">$200</p>
+    <p class="ops_desc">Bacon ipsum dolor amet strip steak chuck burgdoggen meatloaf sirloin shankle flank frankfurter picanha turducken.</p>
+    <button class="select">Select</button>
   </div>
   <div class="pane">
     <h4>Ash</h4>
-    <p>$300</p>
-    <p>Bacon ipsum dolor amet strip steak chuck burgdoggen meatloaf sirloin shankle flank frankfurter picanha turducken.</p>
+    <p class="price">$300</p>
+    <p class="ops_desc">Bacon ipsum dolor amet strip steak chuck burgdoggen meatloaf sirloin shankle flank frankfurter picanha turducken.</p>
+    <button class="select">Select</button>
   </div>
   <div class="pane">
     <h4>Mahogany</h4>
-    <p>$400</p>
-    <p>Bacon ipsum dolor amet strip steak chuck burgdoggen meatloaf sirloin shankle flank frankfurter picanha turducken.</p>
+    <p class="price">$400</p>
+    <p class="ops_desc">Bacon ipsum dolor amet strip steak chuck burgdoggen meatloaf sirloin shankle flank frankfurter picanha turducken.</p>
+    <button class="select">Select</button>
   </div>
 </div>
 
@@ -80,8 +83,9 @@
   <!-- the #email input field uses HTML5 validation to confirm that the text entered is an email address -->
   <!-- Within the form, there is a submit input with ID "submit" -->
   <!-- when the #submit element is clicked, the email is submited to a static page. (see user stories for more) -->
-  <div class="jumptarget">
+  <div>
     <form id="form">
+      <p>For more Info: </p>
        <input id="email" type="email" name="email" placeholder="Enter your email address">
        <button id="submit">Submit</button>
     </form>
