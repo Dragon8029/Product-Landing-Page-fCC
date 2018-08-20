@@ -107,6 +107,7 @@ i {
   float: left;
   padding: 0;
   margin: 50px 10px 50px 10px;
+  background-color: #eee;
 }
 
 #form {
@@ -140,7 +141,7 @@ i {
 #options h4 {
   padding: 0;
   margin: 0;
-  background: #ccc;
+  background: #bbb;
   font-weight: normal;
 }
 .price {
